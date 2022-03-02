@@ -937,7 +937,7 @@ gst_teletextdec_export_pango_page (GstTeletextDec * teletext, vbi_page * page,
   GString *subs;
   guint start, stop, k;
   gint i, j;
-  gboolean fgcolor;
+  gboolean fg_color;
 
   colors = (gchar **) g_malloc (sizeof (gchar *) * (rows + 1));
   colors[rows] = NULL;
